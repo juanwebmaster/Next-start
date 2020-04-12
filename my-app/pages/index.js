@@ -1,6 +1,7 @@
 import Layout from "./components/MyLayout";
 import Link from "next/link";
 import fetch from "isomorphic-unfetch";
+import useSWR from 'swr';
 
 const PostLink = props => {
   console.log(props)
